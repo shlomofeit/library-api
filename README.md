@@ -3,7 +3,15 @@
 A library management system that allows for book inventory management, subscription management, and smart lending system management that prevents duplication, loss of books, and more.
 
 ## Docker setup with MySql:
-`$ docker run --name mysql-library-api -e MYSQL_ROOT_PASSWORD=root -d mysql:tag`
+first time:
+```
+$ docker run --name mysql-library-api -e MYSQL_ROOT_PASSWORD=root -d mysql:8
+```
+
+if exist:
+```
+docker start mysql-library-api
+```
 
 ## Functions
  * main
@@ -109,24 +117,11 @@ contains:
 ## System flow
 > the user run the setup call:
 
-create db if not exist
+* create db if not exist >>>
 
-\\/
+![aaa](src/library-api.drawio.svg)
 
-create user
 
-\\/
+## How to run
 
-borrow book
-
-\\/
-
-update book and user
-
-\\/
-
-return book
-
-\\/
-
-get reports
+```uvicorn main:app --reload```
