@@ -5,12 +5,12 @@ A library management system that allows for book inventory management, subscript
 ## Docker setup with MySql:
 first time:
 ```
-$ docker run --name mysql-library-api -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASW=library_db -d mysql:8
+$ docker run -p 3306:3306 --name library_db -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASW=library_db -d mysql:8
 ```
 
 if exist:
 ```
-docker start mysql-library-api
+docker start library_db
 ```
 
 ## Functions
