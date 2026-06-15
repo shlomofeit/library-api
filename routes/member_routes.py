@@ -1,9 +1,8 @@
-from fastapi import APIRouter, HTTPException, exception_handlers
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from database.db_connection import SetConnection
-from database.book_db import BookDB
 from database.member_db import MemberDB
 from mysql import connector
+from library_logging import logger
 
 
 class MemberValidate(BaseModel):
@@ -15,13 +14,14 @@ router = APIRouter(prefix="/members")
 
 @router.post("", status_code=201)
 def create_member_router(member: MemberValidate):
+    logger.debug("the function was called")
+
     new_member = member.model_dump(exclude_unset=True)
 
-    if member["name"] and member["email"]:
-        conn = MemberDB(SetConnection.get_connection())
+    if new_member["name"] and new_member["email"]:
         
         try:
-            conn.create_book(new_member)
+            MemberDB().create_member(new_member)
             return {"message": "user created successfully"}
         except connector.errors.IntegrityError:
             raise HTTPException(409, {"message": "Email address already exists in the system. Duplicate registration is not possible."})
@@ -31,16 +31,18 @@ def create_member_router(member: MemberValidate):
 
 @router.get("")
 def get_all_members_router():
-    conn = MemberDB(SetConnection.get_connection())
-    result = conn.get_all_members()
+    logger.debug("the function was called")
+
+    result = MemberDB().get_all_members()
 
     return result if result else []
 
 
 @router.get("/{id}")
 def get_member_by_id_router(id: int):
-    conn = MemberDB(SetConnection.get_connection())
-    result = conn.get_member_by_id(id)
+    logger.debug("the function was called")
+
+    result = MemberDB().get_member_by_id(id)
 
     if result:
         return result
@@ -50,29 +52,35 @@ def get_member_by_id_router(id: int):
 
 @router.patch("/{id}", status_code=201)
 def update_member_router(id: int, member: MemberValidate):
+    logger.debug("the function was called")
+
+    get_member_by_id_router(id)
     member_detail = member.model_dump(exclude_unset=True)
 
-    conn = MemberDB(SetConnection.get_connection())
-    conn.get_member_by_id(id)
+    MemberDB().get_member_by_id(id)
     
-    conn.update_member(id, member_detail)    
+    MemberDB().update_member(id, member_detail)    
     return {"message": "Member updated successfully"}
 
 
 @router.patch("/{id}/deactivate")
 def deactive_member_router(id: int):
-    conn = MemberDB(SetConnection.get_connection())
+    logger.debug("the function was called")
 
-    conn.get_member_by_id(id)    
+    get_member_by_id_router(id)
+
+    MemberDB().get_member_by_id(id)    
     
-    conn.deactivate_member(id)    
+    MemberDB().deactivate_member(id)    
     return {"message": "Member updated successfully"}
 
 @router.patch("/{id}/activate")
 def active_member_router(id: int):
-    conn = MemberDB(SetConnection.get_connection())
+    logger.debug("the function was called")
 
-    conn.get_member_by_id(id)
+    get_member_by_id_router(id)
 
-    conn.activate_member(id)    
+    MemberDB().get_member_by_id(id)
+
+    MemberDB().activate_member(id)    
     return {"message": "Member updated successfully"}

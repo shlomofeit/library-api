@@ -2,7 +2,7 @@ import logging
 
 
 logging.basicConfig(
-    format="%(asctime)s | %(level)s | %(message)s",
+    format="%(asctime)s | %(levelname)s | %(message)s | %(filename)s | %(funcName)s",
     level=logging.INFO,
     handlers=[
         logging.FileHandler("logs/app.log"),

@@ -1,5 +1,5 @@
 from mysql import connector
-# from library_logging import logger
+from library_logging import logger
 
 class SetConnection:
 
@@ -7,11 +7,12 @@ class SetConnection:
 
     @classmethod
     def connect(cls):
-
-        # logger.info("the function was called")
-        # logger.info("connecting...")
+        logger.info("the function was called")
+        logger.info("connecting...")
 
         try:
+            logger.info("trying to connect to library_db...")
+
             cls.conn = connector.connect(
             host = "localhost",
             user = "root",
@@ -19,36 +20,39 @@ class SetConnection:
             port = 3306,
             database = "library_db"
         )
+            
+            logger.info("connection successfully")
 
         except connector.errors.ProgrammingError:
+            logger.info("library_db is not exist. creating database...")
 
             with cls.conn.cursor(dictionary=True) as cursor:
                 cursor.execute("CREATE DATABASE IF NOT EXISTS library_db; USE library_db")
                 cursor.close()
             cls.connect()
 
-        # logger.info("connection to docker-mysql db successful")
-        # logger.debug('the connection to: {host = "localhost", user = "root", password = "<password>", database = "library_db"} successful')
+        logger.info("connection to library_db successful")
+        logger.debug('the connection to: {host = "localhost", user = "root", password = "<password>", database = "library_db"} successful')
 
         return cls.conn
 
     @classmethod    
     def get_connection(cls):
-        if cls.conn is not None:
-            # logger.info("db is connect")
+        if cls.conn.is_connected():
+            logger.info("db is connect")
             return cls.conn
 
-        # logger.error("db is down. connecting...")
+        logger.error("db is down. connecting...")
 
         cls.connect()
         cls.create_tables()
 
-        if cls.conn:
-            # logger.info("db connected successful")
+        if cls.conn.is_connected():
+            logger.info("db connected successful")
 
             return cls.conn
     
-        # logger.error("failed to connect")
+        logger.error("failed to connect")
     
     @classmethod
     def create_tables(cls):
@@ -76,8 +80,10 @@ class SetConnection:
         ) 
 
         cls.cursor.close()
+        logger.info("created tables if there not exist successfully.")
 
     @classmethod
     def close_conn(cls):
         if cls.conn and cls.conn.is_connected():
             cls.conn.close()
+            logger.info("connection was closed")

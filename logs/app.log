@@ -1,0 +1,392 @@
+2026-06-15 15:42:47,761 | INFO | the get all books function was called
+2026-06-15 15:42:47,762 | INFO | all books from the table were successfully retrieved
+2026-06-15 15:42:47,763 | INFO | the cursor closed
+2026-06-15 15:44:15,844 | INFO | the get all books function was called | get_all_books
+2026-06-15 15:44:15,847 | INFO | all books from the table were successfully retrieved | get_all_books
+2026-06-15 15:44:15,848 | INFO | the cursor closed | get_all_books
+2026-06-15 15:44:50,428 | INFO | the get all books function was called | book_db.py | get_all_books
+2026-06-15 15:44:50,432 | INFO | all books from the table were successfully retrieved | book_db.py | get_all_books
+2026-06-15 15:44:50,432 | INFO | the cursor closed | book_db.py | get_all_books
+2026-06-15 15:45:21,978 | INFO | the get all books function was called | book_db.py | get_all_books
+2026-06-15 15:45:21,981 | INFO | all books from the table were successfully retrieved | book_db.py | get_all_books
+2026-06-15 15:45:21,981 | INFO | the cursor closed | book_db.py | get_all_books
+2026-06-15 15:45:30,995 | INFO | the get all books function was called | book_db.py | get_all_books
+2026-06-15 15:45:30,998 | INFO | all books from the table were successfully retrieved | book_db.py | get_all_books
+2026-06-15 15:45:30,998 | INFO | the cursor closed | book_db.py | get_all_books
+2026-06-15 15:45:57,105 | INFO | the get all books function was called | book_db.py | get_all_books
+2026-06-15 15:45:57,108 | INFO | all books from the table were successfully retrieved | book_db.py | get_all_books
+2026-06-15 15:45:57,109 | INFO | the cursor closed | book_db.py | get_all_books
+2026-06-15 15:46:05,023 | INFO | the get all books function was called | book_db.py | get_all_books
+2026-06-15 15:46:05,025 | INFO | all books from the table were successfully retrieved | book_db.py | get_all_books
+2026-06-15 15:46:05,025 | WARNING | no books in the table | book_db.py | get_all_books
+2026-06-15 15:46:05,026 | INFO | the cursor closed | book_db.py | get_all_books
+2026-06-15 15:47:00,051 | INFO | the get book by id function was called | book_db.py | get_book_by_id
+2026-06-15 15:47:00,062 | INFO | the cursor closed | book_db.py | get_book_by_id
+2026-06-15 15:50:37,566 | INFO | the get book by id function was called | book_db.py | get_book_by_id
+2026-06-15 15:50:37,568 | INFO | book by id from the table were successfully retrieved | book_db.py | get_book_by_id
+2026-06-15 15:50:37,568 | INFO | the cursor closed | book_db.py | get_book_by_id
+2026-06-15 15:50:39,887 | INFO | the get book by id function was called | book_db.py | get_book_by_id
+2026-06-15 15:50:39,891 | INFO | book by id from the table were successfully retrieved | book_db.py | get_book_by_id
+2026-06-15 15:50:39,891 | WARNING | Book with ID: 11 does not exist | book_db.py | get_book_by_id
+2026-06-15 15:50:39,891 | INFO | the cursor closed | book_db.py | get_book_by_id
+2026-06-15 16:05:24,611 | INFO | the create book function was called | book_db.py | create_book
+2026-06-15 16:05:24,642 | INFO | the book was created successfully | book_db.py | create_book
+2026-06-15 16:05:24,643 | INFO | the cursor closed | book_db.py | create_book
+2026-06-15 16:36:21,385 | INFO | the function was called | book_db.py | count_total_books
+2026-06-15 16:36:21,426 | INFO | the cursor closed | book_db.py | count_total_books
+2026-06-15 16:36:21,430 | INFO | the cursor closed | book_db.py | count_available_books
+2026-06-15 16:36:21,433 | INFO | the cursor closed | book_db.py | count_borrowed_books
+2026-06-15 16:39:55,677 | INFO | the function was called | book_db.py | count_by_genre
+2026-06-15 16:39:55,687 | INFO | the amount of genre books in the table is: [{'genre': 'Fiction', 'COUNT': 1}, {'genre': 'Non-Fiction', 'COUNT': 4}] | book_db.py | count_by_genre
+2026-06-15 16:39:55,688 | INFO | the cursor closed | book_db.py | count_by_genre
+2026-06-15 16:40:32,480 | INFO | the %(funcName)s function was called | book_db.py | count_by_genre
+2026-06-15 16:40:32,485 | INFO | the amount of genre books in the table is: [{'genre': 'Fiction', 'COUNT': 1}, {'genre': 'Non-Fiction', 'COUNT': 4}] | book_db.py | count_by_genre
+2026-06-15 16:40:32,485 | INFO | the cursor closed | book_db.py | count_by_genre
+2026-06-15 16:46:50,388 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:46:50,390 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:46:50,425 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:46:50,425 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:51:09,917 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:51:09,918 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:51:09,918 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:51:09,961 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:51:09,961 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:51:09,963 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:51:09,965 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:51:09,966 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:51:09,966 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:51:09,985 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:51:09,985 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:51:09,986 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:51:10,064 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:54:11,841 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:54:11,841 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:54:11,841 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:54:11,879 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:54:11,879 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:54:11,880 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:54:11,881 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:54:11,881 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:54:11,881 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:54:11,892 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:54:11,892 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:54:11,893 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:54:11,964 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:55:52,453 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 16:55:53,837 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:55:53,837 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:55:53,837 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:55:53,878 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:55:53,879 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:55:53,880 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:55:53,886 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:55:53,886 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:55:53,886 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:55:53,902 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:55:53,902 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:55:53,905 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:55:53,986 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:56:03,995 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 16:56:04,931 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:56:04,931 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:56:04,931 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:56:04,958 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:56:04,958 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:56:04,959 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:56:04,963 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:56:04,963 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:56:04,963 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:56:04,975 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:56:04,975 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:56:04,976 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:56:05,069 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:59:02,346 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 16:59:03,462 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:59:03,462 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:59:03,462 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:59:03,494 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:59:03,494 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:59:03,495 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:59:03,502 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:59:03,502 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:59:03,503 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:59:03,520 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:59:03,521 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:59:03,522 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:59:03,622 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:59:55,107 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 16:59:55,986 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:59:55,987 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:59:55,987 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:59:56,025 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:59:56,026 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:59:56,027 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:59:56,034 | INFO | the function was called | db_connection.py | connect
+2026-06-15 16:59:56,034 | INFO | connecting... | db_connection.py | connect
+2026-06-15 16:59:56,034 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 16:59:56,047 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 16:59:56,047 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 16:59:56,049 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 16:59:56,117 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:00:10,878 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:00:12,096 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:00:12,096 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:00:12,096 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:00:12,134 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:00:12,135 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:00:12,136 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:00:12,142 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:00:12,142 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:00:12,143 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:00:12,160 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:00:12,160 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:00:12,161 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:00:12,247 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:02:13,412 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:02:14,392 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:02:14,393 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:02:14,393 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:02:14,422 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:02:14,422 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:02:14,423 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:02:14,428 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:02:14,428 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:02:14,428 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:02:14,443 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:02:14,443 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:02:14,443 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:02:14,514 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:05:31,329 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:05:32,379 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:05:32,379 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:05:32,379 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:05:32,412 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:05:32,412 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:05:32,412 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:05:32,417 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:05:32,417 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:05:32,418 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:05:32,430 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:05:32,430 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:05:32,431 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:05:32,508 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:08:30,385 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:08:31,417 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:08:31,417 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:08:31,417 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:08:31,449 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:08:31,459 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:08:31,461 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:08:31,519 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:08:31,519 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:08:31,519 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:08:31,531 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:08:31,531 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:08:31,532 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:08:31,610 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:09:21,681 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:09:22,664 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:09:22,664 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:09:22,664 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:09:22,717 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:09:22,717 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:09:22,718 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:09:22,719 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:09:22,719 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:09:22,719 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:09:22,732 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:09:22,732 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:09:22,733 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:09:22,808 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:09:30,465 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:09:31,227 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:09:31,227 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:09:31,227 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:09:31,253 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:09:31,253 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:09:31,254 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:09:31,254 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:09:31,254 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:09:31,255 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:09:31,265 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:09:31,265 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:09:31,266 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:09:31,319 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:09:37,035 | INFO | GET /reports/books-by-genre called | main.py | http_logger
+2026-06-15 17:09:37,037 | INFO | the function was called | book_db.py | count_by_genre
+2026-06-15 17:09:37,040 | INFO | the amount of genre books in the table is: [{'genre': 'Fiction', 'COUNT': 1}, {'genre': 'Non-Fiction', 'COUNT': 4}] | book_db.py | count_by_genre
+2026-06-15 17:09:37,041 | INFO | the cursor closed | book_db.py | count_by_genre
+2026-06-15 17:10:00,933 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:10:01,864 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:10:01,864 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:10:01,864 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:10:01,892 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:10:01,892 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:10:01,893 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:10:01,894 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:10:01,894 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:10:01,895 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:10:01,909 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:10:01,909 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:10:01,910 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:10:01,971 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:10:11,686 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:10:12,583 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:10:12,583 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:10:12,583 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:10:12,614 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:10:12,614 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:10:12,615 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:10:12,616 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:10:12,616 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:10:12,616 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:10:12,628 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:10:12,628 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:10:12,629 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:10:12,688 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:10:14,502 | INFO | GET http://127.0.0.1:8000/reports/books-by-genre called | main.py | http_logger
+2026-06-15 17:10:14,505 | INFO | the function was called | book_db.py | count_by_genre
+2026-06-15 17:10:14,518 | INFO | the amount of genre books in the table is: [{'genre': 'Fiction', 'COUNT': 1}, {'genre': 'Non-Fiction', 'COUNT': 4}] | book_db.py | count_by_genre
+2026-06-15 17:10:14,518 | INFO | the cursor closed | book_db.py | count_by_genre
+2026-06-15 17:11:29,198 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:11:30,317 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:11:30,317 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:11:30,317 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:11:30,352 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:11:30,353 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:11:30,355 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:11:30,356 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:11:30,356 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:11:30,356 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:11:30,372 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:11:30,372 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:11:30,375 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:11:30,466 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:12:34,695 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:12:35,748 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:12:35,749 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:12:35,749 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:12:35,784 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:12:35,785 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:12:35,786 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:12:35,787 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:12:35,787 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:12:35,787 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:12:35,803 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:12:35,803 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:12:35,804 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:12:35,886 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:13:25,186 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:13:26,175 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:13:26,175 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:13:26,175 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:13:26,205 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:13:26,205 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:13:26,206 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:13:26,207 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:13:26,208 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:13:26,208 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:13:26,221 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:13:26,221 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:13:26,222 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:13:26,288 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:15:39,477 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:15:41,095 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:15:41,095 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:15:41,095 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:15:41,137 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:15:41,137 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:15:41,138 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:15:41,141 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:15:41,141 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:15:41,142 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:15:41,160 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:15:41,160 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:15:41,161 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:15:41,243 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:00,889 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:17:01,683 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:17:01,684 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:17:01,684 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:17:01,714 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:17:01,714 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:17:01,715 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:01,715 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:17:01,715 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:17:01,715 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:17:01,726 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:17:01,726 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:17:01,727 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:01,784 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:05,915 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:17:06,721 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:17:06,722 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:17:06,722 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:17:06,746 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:17:06,746 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:17:06,747 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:06,748 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:17:06,748 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:17:06,748 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:17:06,758 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:17:06,758 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:17:06,759 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:06,821 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:10,147 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:17:11,069 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:17:11,069 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:17:11,069 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:17:11,107 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:17:11,107 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:17:11,108 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:11,109 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:17:11,109 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:17:11,109 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:17:11,124 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:17:11,124 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:17:11,125 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:11,192 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:19,901 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:17:20,835 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:17:20,835 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:17:20,835 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:17:20,867 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:17:20,868 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:17:20,869 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:20,869 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:17:20,870 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:17:20,870 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:17:20,881 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:17:20,882 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:17:20,882 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:17:20,946 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:19:05,173 | INFO | connection was closed | db_connection.py | close_conn
+2026-06-15 17:19:06,109 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:19:06,109 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:19:06,109 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:19:06,140 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:19:06,141 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:19:06,142 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:19:06,144 | INFO | the function was called | db_connection.py | connect
+2026-06-15 17:19:06,144 | INFO | connecting... | db_connection.py | connect
+2026-06-15 17:19:06,144 | INFO | trying to connect to library_db... | db_connection.py | connect
+2026-06-15 17:19:06,163 | INFO | connection successfully | db_connection.py | connect
+2026-06-15 17:19:06,164 | INFO | connection to library_db successful | db_connection.py | connect
+2026-06-15 17:19:06,165 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:19:06,238 | INFO | db is connect | db_connection.py | get_connection
+2026-06-15 17:19:13,101 | INFO | GET http://127.0.0.1:8000/reports/summary called | main.py | http_logger
+2026-06-15 17:19:13,103 | INFO | the function was called | book_db.py | count_total_books
+2026-06-15 17:19:13,116 | INFO | the amount of books in the table is: [(5,)] | book_db.py | count_total_books
+2026-06-15 17:19:13,117 | INFO | the cursor closed | book_db.py | count_total_books
+2026-06-15 17:19:13,117 | INFO | the function was called | book_db.py | count_available_books
+2026-06-15 17:19:13,119 | INFO | the amount of availble books in the table is: [(3,)] | book_db.py | count_available_books
+2026-06-15 17:19:13,120 | INFO | the cursor closed | book_db.py | count_available_books
+2026-06-15 17:19:13,120 | INFO | the function was called | book_db.py | count_borrowed_books
+2026-06-15 17:19:13,122 | INFO | the amount of borrowed books in the table is: [(2,)] | book_db.py | count_borrowed_books
+2026-06-15 17:19:13,122 | INFO | the cursor closed | book_db.py | count_borrowed_books
+2026-06-15 17:19:13,124 | INFO | the amount of active members is: [(2,)] | member_db.py | count_active_members
+2026-06-15 17:19:21,381 | INFO | GET http://127.0.0.1:8000/reports/books-by-genre called | main.py | http_logger
+2026-06-15 17:19:21,382 | INFO | the function was called | book_db.py | count_by_genre
+2026-06-15 17:19:21,388 | INFO | the amount of genre books in the table is: [{'genre': 'Fiction', 'COUNT': 1}, {'genre': 'Non-Fiction', 'COUNT': 4}] | book_db.py | count_by_genre
+2026-06-15 17:19:21,389 | INFO | the cursor closed | book_db.py | count_by_genre
+2026-06-15 17:19:26,476 | INFO | connection was closed | db_connection.py | close_conn
